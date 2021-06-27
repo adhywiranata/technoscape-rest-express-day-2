@@ -4,9 +4,12 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const dotenv = require('dotenv');
 
 const indexRouter = require('./routes/index');
 const productsRouter = require('./routes/products');
+
+dotenv.config();
 
 const myLogger = require('./middlewares/mylogger');
 
