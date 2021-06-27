@@ -8,6 +8,8 @@ const bodyParser = require('body-parser');
 const indexRouter = require('./routes/index');
 const productsRouter = require('./routes/products');
 
+const myLogger = require('./middlewares/mylogger');
+
 const app = express();
 
 app.use(logger('dev'));
@@ -16,6 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(bodyParser.json());
+app.use(myLogger);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Router: REST API path2 apa aja sih yang bisa diakses di api tersebut

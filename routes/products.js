@@ -1,5 +1,10 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+
+const productLogger = require('../middlewares/productLogger');
+
+const router = express.Router();
+
+router.use(productLogger);
 
 // BARU DI COPAS DARI PROJECT DAY - 1
 const ProductRepository = require('../repositories/product');
