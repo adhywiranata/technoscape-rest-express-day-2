@@ -8,5 +8,10 @@
     "id": "f514f95e-41a9-4cad-8561-2c3e42254bfb",
     "name": "Barang Baru",
     "price": 2000
+  },
+  {
+    "id": "520be594-694a-4b03-9e7b-dcc8a1e7adcb",
+    "name": "Barang Baru 2",
+    "price": 2000
   }
 ]
