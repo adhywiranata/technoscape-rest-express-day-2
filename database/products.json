@@ -5,13 +5,21 @@
     "price": 2000
   },
   {
-    "id": "f514f95e-41a9-4cad-8561-2c3e42254bfb",
-    "name": "Barang Baru",
+    "id": "41694041-5e29-45a7-9bfb-27853dd11fe2"
+  },
+  {
+    "id": "6ea25802-90ed-458c-8517-a4c04e2e0c42",
+    "name": "Test",
     "price": 2000
   },
   {
-    "id": "520be594-694a-4b03-9e7b-dcc8a1e7adcb",
-    "name": "Barang Baru 2",
+    "id": "6853e99a-6ca2-4351-bb70-9223028bdc3f",
+    "name": "Test 2",
     "price": 2000
+  },
+  {
+    "id": "e92009f7-1f94-4185-9621-cc4f42486eb1",
+    "name": "Product Baru",
+    "price": 1000
   }
 ]
