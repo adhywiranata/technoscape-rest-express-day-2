@@ -10,7 +10,7 @@ const productsRouter = require('./routes/products');
 const app = express();
 
 app.use(logger('dev'));
-app.use(cors());
+app.use(cors()); // keamanan siapa aja sih "ORIGIN" yang boleh dikasih
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
