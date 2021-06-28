@@ -1,12 +1,11 @@
-/*
-PRIVATE API / with authentication
-authentication api => api butuh private key/token untuk bisa diakses.
-*/
+const jwt = require('jsonwebtoken');
+
 function auth(req, res, next) {
   // LOGIC untuk cek apakah token yang dikirim itu valid
-  if (req.headers.token === process.env.SECRET_KEY) {
+  try {
+    jwt.verify(req.headers.token, process.env.SECRET_KEY);
     next();
-  } else {
+  } catch (err) {
     res.sendStatus(401);
   }
 }

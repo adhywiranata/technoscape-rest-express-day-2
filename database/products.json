@@ -21,5 +21,10 @@
     "id": "e92009f7-1f94-4185-9621-cc4f42486eb1",
     "name": "Product Baru",
     "price": 1000
+  },
+  {
+    "id": "fe2322f9-ac80-425a-9ae1-74968f16a6c5",
+    "name": "asd",
+    "price": 123
   }
 ]
